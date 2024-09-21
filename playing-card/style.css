@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(56, 58, 80);
+  color: rgb(197, 194, 194);
+  font-size: 16px;
+}
+
+.wrapper {
+  max-width: 1280px;
+  padding-top: 2rem;
+}
+
+.card {
+  margin: 0 auto;
+  position: relative;
+  width: 9rem;
+  height: 14rem;
+  border-radius: 0.3rem;
+  perspective: 30rem;
+}
+
+.front,
+.back {
+  border-radius: 1rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  transition: transform 1s;
+}
+
+img {
+  width: 95%;
+  background-color: white;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.card:hover .front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .back {
+  transform: rotateY(360deg);
+}
