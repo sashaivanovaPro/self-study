@@ -6,7 +6,7 @@ This project is a **Tesla Model Y Configurator** interface, created as a part of
 
 ## 📖 Project Overview
 
-The tutorial demonstrates how to build a responsive and interactive configurator interface for Tesla Model Y. The interface includes vehicle images, custom options, and dynamic styling, showcasing how to achieve a clean and modern design with minimal code.
+This tutorial demonstrates how to create a responsive single-page site using Tailwind and vanilla JavaScript. The logic allows users to change the vehicle's exterior and interior colors, calculate the final price based on additional options, and determine the monthly payment for a 60-month loan.
 
 ## 🔗 Tutorial Link
 
