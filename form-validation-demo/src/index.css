@@ -1,0 +1,8 @@
+/* Импортируем базовые стили */
+@import "tailwindcss/base";
+
+/* Импортируем компонентные стили */
+@import "tailwindcss/components";
+
+/* Импортируем утилитарные классы */
+@import "tailwindcss/utilities";
